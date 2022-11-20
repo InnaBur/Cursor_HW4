@@ -6,9 +6,9 @@ package com.cursor.hw4.DesktopgameStore;
  * to spend money for games
  */
 public abstract class People implements Nameable {
-    public String name;
-    public String lastName;
-    public int hasMoney;
+    private String name;
+    private String lastName;
+    private int hasMoney;
 
     public void setName(String name) {
         this.name = name;

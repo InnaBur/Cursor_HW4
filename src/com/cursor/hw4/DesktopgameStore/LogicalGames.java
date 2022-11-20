@@ -6,8 +6,8 @@ public class LogicalGames extends Game {
     public String getInfo() {
         return "LogicalGames{" +
                 "type='" + type + '\'' +
-                ", numberInStock=" + numberInStock +
-                ", sold=" + sold +
+                ", numberInStock=" + getNumberInStock() +
+                ", sold=" + getSold() +
                 '}';
     }
 }

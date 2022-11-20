@@ -12,27 +12,27 @@ public class DesktopGamesShop {
         LogicalGames chess = new LogicalGames();
         chess.setName("Chess");
         chess.setPrice(500);
-        chess.numberInStock = 2;
+        chess.setNumberInStock(2);
 
         LogicalGames loto = new LogicalGames();
         loto.setName("Loto");
         loto.setPrice(50);
-        loto.numberInStock = 10;
+        loto.setNumberInStock(10);
 
         ActiveGames twister = new ActiveGames();
         twister.setName("Twister");
         twister.setPrice(175);
-        twister.numberInStock = 0;
+        twister.setNumberInStock(0);
 
         CardGames dixit = new CardGames();
         dixit.setName("Dixit");
         dixit.setPrice(200);
-        dixit.numberInStock = 5;
+        dixit.setNumberInStock(5);
 
         CardGames uno = new CardGames();
         uno.setName("Uno");
         uno.setPrice(100);
-        uno.numberInStock = 7;
+        uno.setNumberInStock(7);
 
         SalesManager worker = new SalesManager();
         worker.setName("Andriy");

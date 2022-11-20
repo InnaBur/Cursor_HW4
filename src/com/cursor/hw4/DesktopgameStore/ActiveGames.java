@@ -6,8 +6,8 @@ public class ActiveGames extends Game {
     public String getInfo() {
         return "ActiveGames{" +
                 "type='" + type + '\'' +
-                ", numberInStock=" + numberInStock +
-                ", sold=" + sold +
+                ", numberInStock=" + getNumberInStock() +
+                ", sold=" + getSold() +
                 '}';
     }
 }

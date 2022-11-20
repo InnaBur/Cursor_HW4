@@ -10,11 +10,11 @@ package com.cursor.hw4.DesktopgameStore;
 public class Game implements Nameable {
 
     private String name;
-    public String type;
+    private String type;
     private int price;
-    public int numberInStock;
+    private int numberInStock;
     private boolean isSold;
-    int sold;
+    private int sold;
     private Gamer gamer;
 
     /**
@@ -44,6 +44,22 @@ public class Game implements Nameable {
     }
 
     public Game() {
+    }
+
+    public int getNumberInStock() {
+        return numberInStock;
+    }
+
+    public void setNumberInStock(int numberInStock) {
+        this.numberInStock = numberInStock;
+    }
+
+    public int getSold() {
+        return sold;
+    }
+
+    public void setSold(int sold) {
+        this.sold = sold;
     }
 
     public String getName() {

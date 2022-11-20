@@ -7,8 +7,8 @@ public class CardGames extends Game {
     public String getInfo() {
         return "CardGames{" +
                 "type='" + type + '\'' +
-                ", numberInStock=" + numberInStock +
-                ", sold=" + sold +
+                ", numberInStock=" + getNumberInStock() +
+                ", sold=" + getSold() +
                 '}';
     }
 }
